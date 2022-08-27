@@ -1,0 +1,79 @@
+*{
+        margin: 0;
+    }
+    .btn{
+        background-color: #FF6700;
+        border-radius: 0.2em;
+        border: 0em;
+        padding: 0.5em 2em;
+        color: white;
+    }
+    input{
+        box-shadow: 0.1em 0.01em 1em #FF6700;
+        border-color: unset;
+        border-radius: 0.1em;
+        width: 100%;
+    }
+    .mb-2{
+        margin-bottom: 1em;
+    }
+    .inner-container{
+        background: #fff;
+        padding: 3em 9em;
+        border-radius: 1em;
+    }
+    .flex{
+        display: flex;
+    }
+    .container{
+        padding: 2em;
+        background: #FF6700;
+    }
+    .justify-content-center{
+        justify-content: center;
+    }
+    .justify-content-between{
+        justify-content: space-between;        
+    }
+    .logo{
+        margin-bottom: 2em;
+    }
+    .inner-container > img{
+        width: 30em;
+        border-radius: 0.7em;
+    }
+    .question{
+        margin-bottom: 0.7em;
+        font-size: 1.4em;
+        font-weight: 700;
+        text-align: center;
+    }
+    .stats{
+        color: #FF6700;
+    }
+
+    @media screen and (max-width: 75rem){
+        .logo{
+            width: 20em;
+        }
+        .inner-container{
+            padding: 2em 5em;
+        }
+        .inner-container > img{
+            width: 20em;
+            border-radius: 0.5em;
+        }
+        .container{
+            padding: 0.5em;
+        }
+    }
+
+    @media screen and (max-width: 50rem){
+        .inner-container > img{
+            width: 17em;
+            border-radius: 0.7em;
+        }
+        .inner-container{
+            padding: 1em 2em;
+        }
+    }
