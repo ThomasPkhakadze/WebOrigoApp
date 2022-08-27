@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="d-flex">
         <div>
             <img :src="'/img/'+img+'.jpg'" alt="">
             <p>{{question}}</p>
